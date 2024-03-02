@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Your Company</title>
+</head>
+
+<frameset cols="20%,80%">
+  <!-- Left Frame -->
+  <frame name="leftFrame" src="left.html" noresize="noresize">
+
+  <!-- Center Frame -->
+  <frame name="centerFrame" src="home.html" noresize="noresize">
+
+  <noframes>
+    <body>Your browser does not support frames.</body>
+  </noframes>
+</frameset>
+
+</html>
