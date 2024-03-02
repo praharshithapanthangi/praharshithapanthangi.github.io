@@ -1,0 +1,113 @@
+<html>
+
+    <head>
+        <title>Registration Form</title>
+    </head>
+    <body bgcolor="lavenderblush">
+        <h1 style=text-align:center>REGISTRATION FORM</h1>
+        <form>
+            <table align="center">
+                <tr>
+                    <td>
+                       First Name:
+                    </td>
+		     <td>
+			<input type="text" placeholder="First Name" name="">
+		    </td>
+		</tr>
+		
+		<tr>
+                    <td>
+                       Last Name:
+                    </td>
+		     <td>
+			<input type="text" placeholder="Last Name" name="">
+		    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Phone Number:
+                    </td>
+                    <td>
+                        <input type="phone" placeholder="9867******">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Email Id:
+                    </td>
+                    <td>
+                        <input type="email" placeholder="mahi1@gmail.com">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Password:
+                    </td>
+                    <td>
+                        <input type="password" placeholder="Password">
+                    </td>
+                </tr>
+            <tr>
+                <td>
+                    Gender:
+                </td>
+                <td>
+                    <input type="radio" name="gender">Male
+                    <input type="radio" name="gender">Female
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Date of Birth:
+                </td>
+                <td>
+                    <input type="date">
+                </td>
+            
+            <tr>
+                <td>
+                    Course:
+                </td>
+                <td>
+                    <select>
+                        <option>Select Option</option>
+                        <option>Btech</option>
+                        <option>Mtech</option>
+                        <option>bio</option>
+                    </select>
+                </td>
+            </tr
+>
+		
+	    <tr>
+                <td>
+                    Branch:
+                </td>
+                <td>
+                    <select>
+                        <option>Select Option</option>
+                        <option>CSE</option>
+                        <option>AI&ML</option>
+                        <option>IT</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Address:
+                </td>
+                <td>
+                    <textarea rows="5" col="17" placeholder="Address"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+            </table>
+        </form>
+        </body>
+</html>
